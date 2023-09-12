@@ -1,0 +1,9 @@
+name: cwipost
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - rasterio
+  - pandas
+  - build
+prefix: C:\Users\rhamilton\AppData\Local\miniconda3\envs\cwipost

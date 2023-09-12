@@ -9,6 +9,7 @@ if __name__ == "__main__":
         packages=find_packages(where="cwipost", include=["cwipost", "cwipost.*"]),
         entry_points={'console_scripts': [
             'cwipost = cwipost.cli:cli'
-        ]}
+        ]},
+        requires=['pandas', 'click', 'rasterio']
         
     )
